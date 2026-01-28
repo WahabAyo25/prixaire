@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[13490,["/_next/static/chunks/7dbd84fe7399db23.js","/_next/static/chunks/cffa02c29770a212.js"],"ViewportBoundary"]
+3:I[13490,["/_next/static/chunks/7dbd84fe7399db23.js","/_next/static/chunks/cffa02c29770a212.js"],"MetadataBoundary"]
+4:"$Sreact.suspense"
+5:I[24419,["/_next/static/chunks/7dbd84fe7399db23.js","/_next/static/chunks/cffa02c29770a212.js"],"IconMark"]
+0:{"buildId":"-d_-GS0FTBsmE2cKO0z9O","rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Prixair Exploration | Smarter Exploration"}],["$","meta","1",{"name":"description","content":"Prixair Exploration website"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.ee7b10de.ico","sizes":"267x273","type":"image/x-icon"}],["$","$L5","3",{}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"loading":null,"isPartial":false}

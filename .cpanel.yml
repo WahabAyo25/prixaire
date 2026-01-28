@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/prixaire/public_html/
+    # This line copies ONLY the contents of your build folder to public_html
+    - /bin/cp -R out/* $DEPLOYPATH
