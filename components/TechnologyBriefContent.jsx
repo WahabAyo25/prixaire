@@ -42,9 +42,8 @@ export default function TechnologyBriefContent() {
 
             {/* Description Text */}
             <p className="text-lg md:text-xl text-black leading-relaxed font-light">
-              Our team delivered a customized energy solution through analysis, 
-              strategy development, design, implementation, and ongoing monitoring, 
-              ensuring optimal performance and driving significant energy efficiency gains.
+              Our team delivered a customized solution centered on magnetometer data, leveraging precise magnetic field analysis, signal interpretation, and system calibration. Through targeted strategy development, sensor integration, implementation, and continuous monitoring, we ensured accurate magnetic measurements, optimal system performance, and measurable efficiency gains.
+
             </p>
           </motion.div>
 
@@ -83,7 +82,8 @@ export default function TechnologyBriefContent() {
 
             {/* Description Text */}
             <p className="text-lg md:text-xl text-black leading-relaxed font-light">
-              The customized energy solution delivered transformative results, including substantial cost savings, improved energy efficiency, enhanced sustainability, and increased operational reliability, exceeding expectations and positioning the organization for long-term success.
+             The magnetometer-driven solution delivered transformative results, including reduced operational costs through precise magnetic field monitoring, improved system efficiency, enhanced sustainability via optimized field usage, and increased operational reliability. These outcomes exceeded expectations and positioned the organization for accurate, long-term, data-driven performance.
+
             </p>
           </motion.div>
 

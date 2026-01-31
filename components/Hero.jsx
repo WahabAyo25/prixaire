@@ -30,7 +30,7 @@ export default function Hero() {
           className="text-5xl md:text-7xl font-extrabold tracking-tight"
         >
           Sustainable Exploration, <br />
-          Powered by Prixair EXPLORATION
+          Powered by Prixair
         </motion.h1>
         <motion.p 
           initial={{ opacity: 0, y: 20 }}
@@ -38,7 +38,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.2, ease: "easeInOut" }}
           className="mt-4 text-lg md:text-xl text-white/80"
         >
-          Redefining Exploration for a Changing World
+          Redefining Mining for a Changing World
         </motion.p>
       </div>
 

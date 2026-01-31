@@ -9,7 +9,7 @@ export default function EsgHero() {
       {/* 1. Background Image */}
       <div className="absolute inset-0 z-0">
         <Image 
-          src="/esg.webp" 
+          src="/geophysics.jpeg" 
           alt="Wind turbines landscape"
           fill
           className="object-cover brightness-[0.7]"
@@ -32,7 +32,7 @@ export default function EsgHero() {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="text-white text-5xl md:text-8xl lg:text-9xl font-bold tracking-tight"
         >
-          ESG & Policy
+          Geophysics
         </motion.h1>
 
         {/* Explore Project Label */}

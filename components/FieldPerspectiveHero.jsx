@@ -9,7 +9,7 @@ export default function FieldPerspectiveHero() {
       {/* 1. Background Image */}
       <div className="absolute inset-0 z-0">
         <Image 
-          src="https://images.unsplash.com/photo-1587990754909-18ae9d92c8e8?q=80&w=2274&auto=format&fit=crop" 
+          src="/radiometric.jpg" 
           alt="Wind turbines landscape"
           fill
           className="object-cover brightness-[0.7]"
@@ -36,7 +36,7 @@ export default function FieldPerspectiveHero() {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="text-white text-5xl md:text-8xl lg:text-9xl font-bold tracking-tight"
         >
-          Field Perspectives
+          Radiometrics
         </motion.h1>
 
         {/* Explore Project Label */}

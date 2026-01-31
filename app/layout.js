@@ -1,7 +1,8 @@
 // app/layout.js
 import { Outfit } from "next/font/google";
 import "./globals.css";
-import CustomCursor from "@/components/CustomCursor"; 
+import { Suspense } from "react";
+import CustomCursor from "@/components/CustomCursor";
 import SmoothScroll from "@/components/SmoothScroll";
 
 const outfit = Outfit({
@@ -13,7 +14,7 @@ const outfit = Outfit({
 });
 
 export const metadata = {
-  title: "Prixair Exploration | Smarter Exploration",
+  title: "Prixair | Smarter Exploration",
   description: "Prixair Exploration website",
 };
 
@@ -21,11 +22,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${outfit.variable}`}>
       <body>
-              <CustomCursor /> 
-        <SmoothScroll>
-  
-        {children}
-        </SmoothScroll>
+        <CustomCursor />
+        <Suspense fallback={null}>
+          <SmoothScroll>
+            {children}
+          </SmoothScroll>
+        </Suspense>
       </body>
     </html>
   );

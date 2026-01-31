@@ -42,9 +42,7 @@ export default function FieldPerspectiveContent() {
 
             {/* Description Text */}
             <p className="text-lg md:text-xl text-black leading-relaxed font-light">
-              Our team delivered a customized energy solution through analysis, 
-              strategy development, design, implementation, and ongoing monitoring, 
-              ensuring optimal performance and driving significant energy efficiency gains.
+              Our team delivered a data-driven energy solution grounded in advanced radiometric analysis, combining signal measurement, performance modeling, and targeted system design. Through precise implementation and continuous radiometric monitoring, we optimized system behavior, improved energy efficiency, and ensured sustained, measurable performance gains.
             </p>
           </motion.div>
 
@@ -83,7 +81,8 @@ export default function FieldPerspectiveContent() {
 
             {/* Description Text */}
             <p className="text-lg md:text-xl text-black leading-relaxed font-light">
-              The customized energy solution delivered transformative results, including substantial cost savings, improved energy efficiency, enhanced sustainability, and increased operational reliability, exceeding expectations and positioning the organization for long-term success.
+             The radiometrically engineered solution delivered measurable performance improvements, including quantifiable cost reductions, optimized energy efficiency based on real-time signal data, enhanced sustainability through precise load monitoring, and increased operational reliability. These outcomes exceeded performance benchmarks and positioned the organization for data-validated, long-term operational success.
+
             </p>
           </motion.div>
 

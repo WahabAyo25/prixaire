@@ -8,31 +8,31 @@ import { ChevronLeft, ChevronRight, ArrowRight } from 'lucide-react';
 const slides = [
   {
     id: 1,
-    slug: 'global-trends',
-    label: 'Global Trends',
-    imageUrl: 'https://images.unsplash.com/photo-1661035737932-218f6fc5fa35?q=80&w=2670&auto=format&fit=crop'
+    slug: 'sec-global-trends',
+    label: 'Aerometrics',
+    imageUrl: '/aerometric.jpg'
   },
   {
     id: 2,
-    slug: 'field-perspectives',
-    label: 'Field Perspectives',
-    imageUrl: 'https://images.unsplash.com/photo-1587990754909-18ae9d92c8e8?q=80&w=2274&auto=format&fit=crop'
+    slug: 'sec-field-perspectives',
+    label: 'Radiometric',
+    imageUrl: '/radiometric.jpg'
   },
   {
     id: 3,
-    slug: 'technology-briefs',
-    label: 'Technology Briefs',
-    imageUrl: 'https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2670&auto=format&fit=crop'
+    slug: 'sec-technology-briefs',
+    label: 'Magnetometers',
+    imageUrl: '/magnetometer.jpg'
   },
   {
     id: 4,
-    slug: 'esg-policy',
-    label: 'ESG & Policy',
-    imageUrl: '/esg.webp'
+    slug: 'sec-esg',
+    label: 'Geophysics',
+    imageUrl: '/geophysics.jpeg'
   },
   {
     id: 5,
-    slug: 'investment-risk',
+    slug: 'sec-investment-risk',
     label: 'Investment & Risk',
     imageUrl: 'https://images.unsplash.com/photo-1560279966-2d681f3d4dfc?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGRhbXxlbnwwfHwwfHx8MA%3D%3D'
   },
@@ -70,7 +70,7 @@ export default function ApplicationsCarousel() {
           <div className="flex">
             {slides.map(slide => (
               <div key={slide.id} className="flex-none w-full sm:w-[85%] md:w-1/2 lg:w-[40%] px-1">
-                <Link href={`/projects#${slide.slug}`}>
+                <Link href={`/projects?section=${slide.slug}`} scroll={false}>
                   <div className="relative h-[450px] overflow-hidden group cursor-pointer rounded-sm">
                     <Image src={slide.imageUrl} alt={slide.label} fill className="object-cover transition-transform duration-700 ease-in-out group-hover:scale-110" />
                     <div className="absolute inset-0 bg-black/40 opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>

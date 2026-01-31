@@ -34,7 +34,7 @@ export default function Footer() {
           {/* Hero Section */}
           <div className="sm:col-span-2 lg:col-span-2">
             <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-medium text-primary leading-snug">
-              Sustainable Exploration, Powered by <br className="hidden sm:block" /> Prixair EXPLORATION
+              Sustainable Exploration, Powered by <br className="hidden sm:block" /> Prixair
             </h3>
           </div>
 

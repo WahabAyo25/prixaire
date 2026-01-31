@@ -26,7 +26,7 @@ export default function AboutSection() {
               </span>
             </div>
             <p className="text-3xl md:text-4xl font-medium text-black leading-snug">
-              <strong>Prixair Exploration</strong> is a global provider of sustainable, contactless subsurface exploration solutions. Through our proprietary <strong>Prixair EXPLORATION</strong> technology, we unlock hidden potential.
+              <strong>Prixair Exploration</strong> is a global provider of sustainable, contactless subsurface exploration solutions. Through our proprietary  technology, we unlock hidden potential.
             </p>
             <button className="mt-10 flex items-center gap-3 bg-black text-white font-semibold text-sm px-6 py-3 rounded-full hover:bg-gray-800 transition-colors">
               Learn More

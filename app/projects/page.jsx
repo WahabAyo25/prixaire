@@ -16,28 +16,28 @@ export default function TechnologyBriefsPage() {
   return (
     <main className="bg-white min-h-screen">
       <Navbar />
-      <div id="technology-briefs">
+      <div id="sec-technology-briefs" className="scroll-mt-28">
         <TechnologyBriefsHero />
       </div>
-      
-      <TechnologyBriefContent /> 
 
-      <div id="field-perspectives">
+      <TechnologyBriefContent />
+
+      <div id="sec-field-perspectives" className="scroll-mt-28">
         <FieldPerspectiveHero />
       </div>
       <FieldPerspectiveContent />
 
-      <div id="global-trends">
+      <div id="sec-global-trends" className="scroll-mt-28">
         <GlobalTrendHero />
       </div>
       <GlobalTrendsContent />
 
-      <div id="esg-policy">
+      <div id="sec-esg" className="scroll-mt-28">
         <EsgHero />
       </div>
       <EsgContent />
 
-      <div id="investment-risk">
+      <div id="sec-investment-risk" className="scroll-mt-28">
         <InvestmentHero />
       </div>
       <InvestmentContent />

@@ -38,7 +38,7 @@ export default function ContactCTA() {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="text-4xl md:text-7xl font-medium text-black tracking-tight mb-16 leading-[1.1]"
         >
-          Ready to see <span className="italic font-bold border-b-4 border-primary">Prixair EXPLORATION</span> <br /> 
+          Ready to see <span className="italic font-bold border-b-4 border-primary">Prixair</span> <br /> 
           in action?
         </motion.h2>
 

@@ -9,7 +9,7 @@ export default function TechnologyBriefsHero() {
       {/* 1. Background Image */}
       <div className="absolute inset-0 z-0">
         <Image 
-          src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2670&auto=format&fit=crop" 
+          src="/magnetometer.jpg" 
           alt="Wind turbines landscape"
           fill
           className="object-cover brightness-[0.7]"
@@ -36,7 +36,7 @@ export default function TechnologyBriefsHero() {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="text-white text-5xl md:text-8xl lg:text-9xl font-bold tracking-tight"
         >
-          Technology Briefs
+          Magnetometers
         </motion.h1>
 
         {/* Explore Project Label */}

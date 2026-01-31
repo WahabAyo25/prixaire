@@ -39,7 +39,7 @@ export default function SolutionsShowcase() {
             className="relative w-full aspect-[3/4] md:aspect-[2/3] lg:aspect-[3/4] mt-0 md:-mt-30  overflow-hidden"
           >
             <Image
-              src="/contractor.avif"
+              src="/contractor.jpeg"
               alt="Sustainable infrastructure and workers"
               fill
               className="object-cover"

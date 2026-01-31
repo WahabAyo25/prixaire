@@ -13,7 +13,7 @@ export default function SolutionsDetail() {
         >
           <p className="text-2xl md:text-3xl text-black leading-tight font-light">
             <span className="font-bold border-b-2 border-primary pb-1 mr-2 italic">
-              Prixair EXPLORATION
+              Prixair
             </span> 
             is our proprietary remote sensing platform that captures 
             deep subsurface data—up to 10,000 meters below surface—without 

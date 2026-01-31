@@ -9,7 +9,7 @@ export default function GlobalTrendHero() {
       {/* 1. Background Image */}
       <div className="absolute inset-0 z-0">
         <Image 
-          src="https://images.unsplash.com/photo-1661035737932-218f6fc5fa35?q=80&w=2670&auto=format&fit=crop" 
+          src="/aerometric.jpg" 
           alt="Wind turbines landscape"
           fill
           className="object-cover brightness-[0.7]"
@@ -32,7 +32,7 @@ export default function GlobalTrendHero() {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="text-white text-5xl md:text-8xl lg:text-9xl font-bold tracking-tight"
         >
-          Global Trends
+         Aerometrics
         </motion.h1>
 
         {/* Explore Project Label */}

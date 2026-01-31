@@ -42,9 +42,7 @@ export default function GlobalTrendsContent() {
 
             {/* Description Text */}
             <p className="text-lg md:text-xl text-black leading-relaxed font-light">
-              Our team delivered a customized energy solution through analysis, 
-              strategy development, design, implementation, and ongoing monitoring, 
-              ensuring optimal performance and driving significant energy efficiency gains.
+              Our team delivered a customized energy solution using aerometric data analysis to quantify airflow behavior, pressure differentials, and system losses. These insights informed targeted strategy development, precision system design, and optimized implementation, followed by continuous monitoring of key aerometric and energy performance indicators to ensure sustained efficiency gains and peak operational performance.
             </p>
           </motion.div>
 
@@ -83,7 +81,7 @@ export default function GlobalTrendsContent() {
 
             {/* Description Text */}
             <p className="text-lg md:text-xl text-black leading-relaxed font-light">
-              The customized energy solution delivered transformative results, including substantial cost savings, improved energy efficiency, enhanced sustainability, and increased operational reliability, exceeding expectations and positioning the organization for long-term success.
+              The customized energy solution delivered transformative, data-validated results, including measurable reductions in energy losses driven by optimized airflow dynamics, pressure balance improvements, and system efficiency gains. These enhancements translated into substantial cost savings, reduced environmental impact, and increased operational reliability, positioning the organization for sustained, long-term performance.
             </p>
           </motion.div>
 

@@ -42,9 +42,7 @@ export default function EsgContent() {
 
             {/* Description Text */}
             <p className="text-lg md:text-xl text-black leading-relaxed font-light">
-              Our team delivered a customized energy solution through analysis, 
-              strategy development, design, implementation, and ongoing monitoring, 
-              ensuring optimal performance and driving significant energy efficiency gains.
+              Leveraging geophysical data and subsurface analysis, our team developed and implemented a customized energy solution that optimized system performance and delivered significant energy efficiency gains through continuous monitoring.
             </p>
           </motion.div>
 
@@ -83,7 +81,7 @@ export default function EsgContent() {
 
             {/* Description Text */}
             <p className="text-lg md:text-xl text-black leading-relaxed font-light">
-              The customized energy solution delivered transformative results, including substantial cost savings, improved energy efficiency, enhanced sustainability, and increased operational reliability, exceeding expectations and positioning the organization for long-term success.
+             The implemented solution, informed by geophysical interpretation and subsurface modeling, resulted in significant cost savings, optimized energy efficiency, improved sustainability outcomes, and enhanced operational reliability, exceeding performance benchmarks and supporting long-term operational success.
             </p>
           </motion.div>
 
