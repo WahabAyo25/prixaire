@@ -1,44 +1,12 @@
 "use client";
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, Suspense } from 'react';
 import { usePathname, useSearchParams } from 'next/navigation';
 import Lenis from '@studio-freight/lenis';
 
-export default function SmoothScroll({ children }) {
+function ScrollHandler({ lenisRef }) {
   const pathname = usePathname();
   const searchParams = useSearchParams();
-  const lenisRef = useRef(null);
 
-  useEffect(() => {
-    // Initialize Lenis
-    const lenis = new Lenis({
-      duration: 1.5,
-      easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)), // standard exponential easing
-      orientation: 'vertical',
-      gestureOrientation: 'vertical',
-      smoothWheel: true,
-      wheelMultiplier: 1,
-      touchMultiplier: 2,
-    });
-
-    lenisRef.current = lenis;
-
-    let animationFrameId;
-
-    function raf(time) {
-      lenis.raf(time);
-      animationFrameId = requestAnimationFrame(raf);
-    }
-
-    animationFrameId = requestAnimationFrame(raf);
-
-    return () => {
-      cancelAnimationFrame(animationFrameId);
-      lenis.destroy();
-      lenisRef.current = null;
-    };
-  }, []);
-
-  // Reset scroll to top when the pathname changes, but respect hash or search param if present
   useEffect(() => {
     let retryTimeoutId;
 
@@ -103,7 +71,50 @@ export default function SmoothScroll({ children }) {
       clearTimeout(timeoutId);
       clearTimeout(retryTimeoutId);
     };
-  }, [pathname, searchParams]);
+  }, [pathname, searchParams, lenisRef]);
 
-  return <>{children}</>;
+  return null;
+}
+
+export default function SmoothScroll({ children }) {
+  const lenisRef = useRef(null);
+
+  useEffect(() => {
+    // Initialize Lenis
+    const lenis = new Lenis({
+      duration: 1.5,
+      easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)), // standard exponential easing
+      orientation: 'vertical',
+      gestureOrientation: 'vertical',
+      smoothWheel: true,
+      wheelMultiplier: 1,
+      touchMultiplier: 2,
+    });
+
+    lenisRef.current = lenis;
+
+    let animationFrameId;
+
+    function raf(time) {
+      lenis.raf(time);
+      animationFrameId = requestAnimationFrame(raf);
+    }
+
+    animationFrameId = requestAnimationFrame(raf);
+
+    return () => {
+      cancelAnimationFrame(animationFrameId);
+      lenis.destroy();
+      lenisRef.current = null;
+    };
+  }, []);
+
+  return (
+    <>
+      <Suspense fallback={null}>
+        <ScrollHandler lenisRef={lenisRef} />
+      </Suspense>
+      {children}
+    </>
+  );
 }

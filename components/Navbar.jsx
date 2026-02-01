@@ -75,7 +75,7 @@ export default function Navbar() {
                 Home
               </Link>
               <Link 
-                href="/company" 
+                href="/solutions" 
                 className="text-sm font-light uppercase tracking-wider text-gray-700 hover:text-primary hover:bg-gray-200/50 transition-all py-3 px-2 rounded transform transition-transform duration-300 hover:translate-x-2"
                 onClick={() => setMobileMenuOpen(false)}
               >

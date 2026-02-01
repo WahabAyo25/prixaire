@@ -1,7 +1,6 @@
 // app/layout.js
 import { Outfit } from "next/font/google";
 import "./globals.css";
-import { Suspense } from "react";
 import CustomCursor from "@/components/CustomCursor";
 import SmoothScroll from "@/components/SmoothScroll";
 
@@ -23,11 +22,9 @@ export default function RootLayout({ children }) {
     <html lang="en" className={`${outfit.variable}`}>
       <body>
         <CustomCursor />
-        <Suspense fallback={null}>
-          <SmoothScroll>
-            {children}
-          </SmoothScroll>
-        </Suspense>
+        <SmoothScroll>
+          {children}
+        </SmoothScroll>
       </body>
     </html>
   );
